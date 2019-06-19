@@ -1,0 +1,121 @@
+Java Automatic Marker 0.1.0
+
+********************************************************************************
+*                          Tests results for DriverTest                        *
+********************************************************************************
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+one itinerary with three flights
+ failed because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        getItineraries(String, String, String) didn't find any itineraries.
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+several itineraries with up to three flights (checking that all matches were 
+found)
+ failed because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        getItineraries(String, String, String) didn't find all of the expected 
+        itineraries. Expected itinerary: "534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX512,2014-11-30 09:30,2014-11-30 
+        16:12,Turboprop Airline,LAX,Pearson103,2014-11-30 16:19,2014-11-30 
+        20:52,Jetliner Flights,Pearson,Portland78028:02" in output, which was: 
+        "534,2014-11-29 16:50,2014-11-30 04:07,Turboprop 
+        Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 07:30,Superprop 
+        Airways,LAX,Portland55014:40534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland55014:40534,2014-11-29 
+        16:50,2014-11-30 04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 
+        05:10,2014-11-30 07:30,Superprop 
+        Airways,LAX,Portland55014:40534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland55014:40534,2014-11-29 
+        16:50,2014-11-30 04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 
+        05:10,2014-11-30 07:30,Superprop 
+        Airways,LAX,Portland55014:40534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland55014:40534,2014-11-29 
+        16:50,2014-11-30 04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 
+        05:10,2014-11-30 07:30,Superprop 
+        Airways,LAX,Portland55014:40534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland55014:40534,2014-11-29 
+        16:50,2014-11-30 04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 
+        05:10,2014-11-30 07:30,Superprop Airways,LAX,Portland55014:40"
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method
+one itinerary with two flights
+ failed because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned. Expected itinerary: "102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide295,2014-11-23 
+        17:40,2014-11-23 23:58,Turboprop Flights,Adelaide,Singapore90008:15" in 
+        output, which was: "103,2014-11-23 16:19,2014-11-23 17:52,Jetliner 
+        Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90013:41103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90013:41103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90013:41103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90013:41103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90013:41103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90013:41103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90013:41103,2014-11-23 16:19,2014-11-23 
+        17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90013:41103,2014-11-23 
+        16:19,2014-11-23 17:52,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90013:41102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90014:17102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90014:17102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90014:17102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17102,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 
+        23:59,2014-11-24 06:00,Turboprop 
+        Flights,Adelaide,Singapore90014:17102,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Manila,Adelaide299,2014-11-23 23:59,2014-11-24 
+        06:00,Turboprop Flights,Adelaide,Singapore90014:17"
+
+
+********************************************************************************
+*                        SUMMARY @ 2015/11/19 02:37:44                         *
+********************************************************************************
+    Tests passed: 10
+    Tests run: 13
+    Note: Each test may be weighted differently, so passing 5 tests of 10 does 
+    not guarantee a mark of 50%.

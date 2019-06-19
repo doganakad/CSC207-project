@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Flight Booking App</string>
+    <string name="log_in">Log in</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="invalid_input"></string>
+    <string name="title_activity_user_drawer">UserDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="admin_panel_title">Admin Panel</string>
+
+    <string name="upload_flights">Upload a Flights File:</string>
+    <string name="upload_users">Upload a users File:</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="departure_date">Departure Date</string>
+    <string name="departure_time">Departure Time</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="origin_city">Origin City</string>
+    <string name="destination_city">Destination City</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="search_title">Enter Travel Search Information</string>
+    <string name="itinerarie_search_title">Enter Itinerarie Search Information</string>
+    <string name="search">Search</string>
+    <string name="upload_flight_csv">Upload Flight CSV File</string>
+    <string name="upload_user_csv">Upload User CSV File</string>
+    <string name="file_name">File Name</string>
+    <string name="edit_flight">Edit Selected Flight</string>
+    <string name="title_activity_client">Client</string>
+    <string name="view_personal_info">View Personal Information</string>
+    <string name="view_booked_itineraries">View Booked Itineraries</string>
+    <string name="flight_number">Flight Number</string>
+    <string name="total_seats">Total Seats</string>
+    <string name="seats_remaining">Seats Remaining</string>
+    <string name="cost">Cost</string>
+    <string name="search_flights">Search For Flights</string>
+    <string name="search_itineraries">Search For Itineraries</string>
+    <string name="search_flights_or_itineraries">Search For Flights Or Itineraries</string>
+    <string name="title_activity_view_booked_itineraries">ViewBookedItineraries</string>
+    <string name="save">Save</string>
+    <string name="sort_by_cost">Sort By Cost</string>
+    <string name="sort_by_time">Sort By Travel Time</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">E-Mail Address</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="credit_card_expiry">Credit Card Expiry Date</string>
+    <string name="edit_client">Edit</string>
+    <string name="go_admin_panel">Go To The Admin Panel</string>
+    <string name="go_search">Go To The Search Screen</string>
+    <string name="total_travel_time">Total Travel Time</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="view_flights">View Flights In Itineraty</string>
+    <string name="book_itinerary">Book!</string>
+    <string name="selected_client">Selected Client: </string>
+    <string name="select_client">Select Client To Book As</string>
+    <string name="airline">Airline</string>
+    <string name="selected_client_info">View Or Edit Selected Client\'s Info</string>
+    <string name="go_to_clients_bookings">View Selected Clients Bookings</string>
+</resources>

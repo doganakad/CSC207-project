@@ -1,0 +1,28 @@
+Meeting 1: Sun. Nov. 8
+2:46 - 3:03 completed the Expectations agreement
+3:04 - 3:10 decided on the crc design we wanted to use
+3:11 - 3:14 split the project up. (Jesse and Jeremy do BookingApp, Itenerary and Flight) (Dogan and Ken do User)
+End of meeting: Total time - 28 minutes
+
+Meeting 2: Wed. Nov. 11
+7:00 - 7:10 Discussion on what has been accomplished: Started User, Flight and Itenerary
+7:10 - 7:13 What we want to accomplish before next meeting: BookingApp, Finish User
+No problems to report
+End of meeting: Total time - 13 minutes
+
+Meeting 3: Fri. Nov. 13
+7:00 - 7:05 Discussion on what we need to do next: CreateIteneraries (Jeremy and Jesse), Sorting Algorithms for flight and itenaries lists (Jeremy and Jesse), finish User (Dogan and Ken), junit tests (Dogan and Ken)
+7:05 - 7:13 What we accomplished: Flight.java, Itenerary.java, load methods in BookingApp.java, most of User.java
+End of meeting: Total time - 13 minutes
+
+Meeting 4: Sun. Nov. 15
+7:09 - 7:12 Discussion on what was completed: CreateIteneraries finished but untested. Sorting algorithms finished (need minor formatting changes), 
+7:12 - 7:23 What we need: Finish all ToStrings, Finish some more test cases
+End of meeting: Total time - 14 minutes
+
+Meeting 5: Mon. Nov. 16
+6:58 - 7:07 Checking to see what we have left, docstrings in itinerary and user methods in driver, finalizing Junit tests
+End of meeting: Total time - 9 minutes
+
+End of Part 2
+

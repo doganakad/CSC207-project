@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group_0775.flightbookingapp">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/search_title" />
+        <activity android:name=".DisplayFlightSearchResults" />
+        <activity
+            android:name=".AdminPanel"
+            android:label="@string/admin_panel_title" />
+        <activity android:name=".SavedFlights" />
+        <activity
+            android:name=".ClientActivity"
+            android:label="@string/title_activity_client" />
+        <activity android:name=".FlightDisplay" />
+        <activity android:name=".FlightEdit" />
+        <activity android:name=".DisplayItinerarySearchResults" />
+        <activity android:name=".SavedUsers" />
+        <activity android:name=".ClientInfo" />
+        <activity
+            android:name=".ViewBookedItineraries"
+            android:label="@string/title_activity_view_booked_itineraries" />
+        <activity android:name=".ItineraryDisplay" />
+        <activity android:name=".AdminMain" />
+        <activity android:name=".EditClientInfo" />
+        <activity android:name=".SelectClient"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,120 @@
+Planned Meeting #1: Tues. Nov. 24 8:35 - 9:05 Total time: 30 minutes
+
+What is to be accomplished before next meeting?
+
+Jeremy and Jesse:
+-Working search screen and file upload screen
+Ken and Dogan:
+-Working Login screen
+
+Also created the project file during the meeting to make sure it worked for everyone.
+
+Next planned meeting Sun. Dec 6 ~ 8:00pm
+End of meeting.
+
+
+Weekly Meeting #1: Mon. Nov. 30 7:59 - 8:31 Total time: 32 minutes 
+
+What was accomplished since last meeting?
+
+Jeremy:
+-Flight and itinerary search 
+-Flight CSV file uploading 
+-Flight Manager 
+-Flight Displaying and Flight editing for Admins 
+-FileDialog for Flight file picking
+
+Jesse:
+-Upload screen for CSV files
+-Flight Search
+-Docstrings (Uncommitted as per time of meeting)
+
+Dogan:
+-Client
+-Admin classes
+-Associated docstring
+
+Ken:
+-ClientActivity
+-User login
+
+What do we need to accomplish before next meeting?
+
+Jeremy:
+Editing Flights 
+Uploading users 
+Editing users
+Displaying Itineraries
+
+Jesse:
+-Docstring for undocumented classes
+-Start Readme.txt and complete if the app has been finished before the next meeting
+
+Dogan:
+-Fix login
+
+Ken:
+-Driver
+
+Also discussed possible topics for the interview.
+End of meeting.
+
+
+Planned Meeting #2: Sat. Dec. 5 8:04 - 8:40 Total time: 36 minutes
+Could not get in touch with Jesse who usually records the meeting during our Skype conference, so we did a group chat instead. This file was not committed right after the meeting because we forgot to record it at the time.
+
+What was accomplished since last meeting?
+Jeremy:
+-Editing flight information
+-Flush method for booking app that clears the stored users and flights; the old data was conflicting with new data, causing the sample tests to fail
+
+Jesse:
+-Could not get in touch with him
+
+Dogan:
+-Editing personal and billing information for Client
+
+Ken:
+-Trying to implement the view booked itineraries activity, but running into trouble with ArrayAdaptor
+
+What do we need to accomplish next?
+Jeremy and Jesse:
+-display the search results sorted by time and cost
+-allow Client to book an itinerary
+-allow Admin to book an itinerary for Client
+
+Dogan and Ken:
+-allow Admin to view and edit information of Client
+-allow Client to view their booked itineraries
+-allow Admin to view the booked itineraries of any Client
+
+End of meeting.
+
+
+Planned Meeting #2: Sun. Dec. 6 5:44 - 5:55 Total time: 11 minutes
+
+What was accomplished since last meeting?
+Jeremy:
+-display the search results sorted by time and cost
+
+Jesse:
+-added docstring
+-started readme
+
+Dogan:
+-allow Client to book an itinerary, still untested
+-started working on allowing Admin to view and edit information of Client
+
+Ken:
+-allow Client to view their booked itineraries
+
+What do we need to accomplish next?
+Jeremy and Jesse:
+-allow Admin to book an itinerary for Client
+
+Dogan and Ken:
+-allow Admin to view and edit information of Client
+-allow Admin to view the booked itineraries of any Client
+-need to write password.txt with code instead of pushing it into app data with Android Studio because Jeremy cannot push files to his phone
+
+End of meeting.
